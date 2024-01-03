@@ -33,6 +33,7 @@ function Registration() {
 
       if (response.ok) {
         navigate("/");
+        alert("Registration successful");
         console.log("Registration successful");
       } else {
         // Registration failed, handle errors

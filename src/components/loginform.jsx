@@ -130,6 +130,9 @@ const LoginForm = () => {
                     Login
                   </button>
                 </div>
+                <div className="d-flex justify-content-end mt-3">
+                  <Link to={"/forgotPassword"} >Forgot Password</Link>
+                </div>
               </form>
             </div>
             <div className="card-footer py-3 border-0">
